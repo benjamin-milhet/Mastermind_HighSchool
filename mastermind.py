@@ -64,7 +64,7 @@ bouton_777.configure(text="REGLES", width="40", height="3")
 bouton_777.grid(row=2, column=1)
 
 def clic_777(event):
-    messagebox.showinfo("REGLES"," Le but du jeu du Mastermind est pour lordinateur d’élaborer une combinaison "
+    messagebox.showinfo("REGLES"," Le but du jeu du Mastermind est pour l’ordinateur d’élaborer une combinaison "
                         "difficilement déchiffrable et pour son adversaire, de deviner en un minimum de coup cette "
                         "combinaison.")
 bouton_777.bind("<ButtonPress-1>",clic_777)
